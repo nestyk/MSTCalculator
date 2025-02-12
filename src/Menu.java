@@ -14,6 +14,7 @@ public class Menu {
         System.out.println("inserisci i valori della matrice:");
         for(int i = 0; i<SIZE; i++){
             for(int j = 0; j<SIZE; j++){
+                System.out.println("m["+i+"]["+j+"] -> ");
                 m[i][j] = sc.nextInt();
             }
         }
@@ -24,6 +25,7 @@ public class Menu {
         switch (choice){
             case 1:
                 Dijkstra d = new Dijkstra(c);
+                d.start();
                 break;
             case 2:
                 System.out.println("dopo");
