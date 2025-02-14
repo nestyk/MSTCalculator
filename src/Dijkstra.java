@@ -6,10 +6,15 @@ public class Dijkstra {
     }
     public void start(){
         int[][] matrix = conf.getMatrice();
-        System.out.println();
 
+        int len = matrix.length;
+        int[] distanze = new int[len];
+        boolean[] hasBeenVisited = new boolean[len];
+
+        
 
     }
+
 
 
 
