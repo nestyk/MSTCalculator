@@ -1,7 +1,8 @@
-dsdandjasd
-dsa
-dsa
-d
-asd
-sa
-da
+0,Inf,Inf,6,Inf,3,4,1
+Inf,0,Inf,Inf,1,5,18,3
+Inf,Inf,0,Inf,9,19,9,Inf
+6,Inf,Inf,0,Inf,Inf,20,Inf
+Inf,1,9,Inf,0,Inf,18,18
+3,5,19,Inf,Inf,0,Inf,7
+4,18,9,20,18,Inf,0,12
+1,3,Inf,Inf,18,7,12,0

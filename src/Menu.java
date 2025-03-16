@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
 public class Menu {
-
+    private boolean DEBUG;
+    public Menu (boolean DEBUG){
+        this.DEBUG = DEBUG;
+        Init();
+    }
 
     public void Init(){
         Scanner sc = new Scanner(System.in);
