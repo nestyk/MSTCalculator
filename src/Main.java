@@ -12,7 +12,7 @@ public class Main {
         } catch (FileNotFoundException e) {
             System.out.println("FIle not found.");
         }
-        Dijkstra d = new Dijkstra(c);
+        DijkstraTest d = new DijkstraTest(c);
         d.start();
     }
 }

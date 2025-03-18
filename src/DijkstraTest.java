@@ -33,7 +33,9 @@ public class DijkstraTest {
                     if (nuovoCosto < costi[vicino]) {
                         costi[vicino] = nuovoCosto;
                         // Se troviamo un percorso migliore, sostituiamo la lista dei predecessori
-                        predecessori.put(vicino, new ArrayList<>(List.of(nodoCorrente)));
+                        System.out.println(predecessori.get(vicino));
+                        predecessori.put(vicino, new ArrayList<>(Arrays.asList(nodoCorrente)));
+
                     } else if (nuovoCosto == costi[vicino]) {
                         // Se il nuovo percorso ha lo stesso costo, aggiungiamo il predecessore
                         predecessori.get(vicino).add(nodoCorrente);
