@@ -26,7 +26,7 @@ public class Dijkstra {
 
 
         for(int i = 0; i<len; ++i){
-            for(int j = 0; j<len; ++j){
+            for (int j = 0; j<len; ++j){
                 if( (matrice[i][j] != 0) && (matrice[i][j] != -1)){
                     int costo = matrice[i][j];
                     if(costo < costi[j]){
